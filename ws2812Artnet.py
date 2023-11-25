@@ -21,5 +21,5 @@ while True:
 	if len(data) > 0:
 		#print(data)
 		for i in range(pixelCount):
-			pixels[i] = (data[(3 * i) + 0], data[(3 * i) + 1], data[(3 * i) + 2])
+			pixels[i] = (data[(3 * i) + 0], data[(3 * i) + 2], data[(3 * i) + 1])
 del server
